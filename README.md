@@ -116,7 +116,7 @@ Como o projeto é desenvolvido com tecnologias estáticas puras, não é necess�
 ### Opção 1: Abrir Diretamente no Navegador (Mais Rápido)
 1. Baixe ou clone este repositório:
    ```bash
-   git clone https://github.com/SEU_USUARIO/SEU_REPOSITORIO.git
+   git clone https://github.com/RaulSalles/ong-esperanca-viva.git
    ```
 2. Navegue até a pasta do projeto.
 3. Dê um duplo clique no arquivo **`index.html`** para abrir no seu navegador padrão.
@@ -168,7 +168,7 @@ Depois, basta acessar no navegador: `http://localhost:3000`
 Desenvolvido por **Raul Abreu** como projeto acadêmico para o curso de graduação / faculdade.
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com)
-[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com)
+[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/RaulSalles)
 
 ---
 
