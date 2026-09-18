@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Conheça os projetos sociais da ONG Esperança Viva: oficinas educativas, reforço escolar, distribuição de alimentos e agasalhos. Saiba como doar via PIX.">
+  <title>ONG Esperança Viva - Projetos e Doações</title>
+  
+  <!-- Favicon Oficial -->
+  <link rel="icon" type="image/svg+xml" href="assets/img/logo-ong.svg">
+  
+  <!-- Folha de Estilos Principal -->
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+  <!-- CABEÇALHO PRINCIPAL -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="brand-wrapper" title="Voltar para a página inicial">
+        <img src="assets/img/logo-ong.svg" alt="Logotipo da ONG Esperança Viva" class="brand-logo">
+        <div class="brand-title">
+          <span>ONG Esperança Viva</span>
+          <span class="sub">Juntos Podemos Fazer Mais</span>
+        </div>
+      </a>
+
+      <!-- Botão Hambúrguer Mobile -->
+      <button class="mobile-toggle" id="mobileToggle" aria-label="Abrir menu de navegação" aria-expanded="false">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <line x1="3" y1="12" x2="21" y2="12"></line>
+          <line x1="3" y1="6" x2="21" y2="6"></line>
+          <line x1="3" y1="18" x2="21" y2="18"></line>
+        </svg>
+      </button>
+
+      <!-- Navegação Principal -->
+      <nav class="main-nav" id="mainNav" aria-label="Menu Principal">
+        <ul>
+          <li><a href="index.html">Início</a></li>
+          <li><a href="projetos.html" class="active">Projetos</a></li>
+          <li><a href="cadastro.html">Seja Voluntário</a></li>
+        </ul>
+      </nav>
+
+      <!-- Botão de Ação Rápida -->
+      <div class="header-cta">
+        <a href="#doacoes" class="btn btn-accent btn-sm">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/>
+          </svg>
+          Apoiar / Doar
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO DA PÁGINA -->
+    <section class="page-hero">
+      <div class="container">
+        <span class="badge badge-secondary">Impacto Social em Ação</span>
+        <h1>Nossos Projetos e Formas de Apoio</h1>
+        <p>Conheça nossas ações contínuas que levam educação, dignidade e acolhimento para centenas de famílias da comunidade.</p>
+      </div>
+    </section>
+
+    <!-- INICIATIVAS SOLIDÁRIAS -->
+    <section class="section">
+      <div class="container">
+        
+        <!-- BANNER COM FOTO REAL DAS CRIANÇAS E OFICINAS -->
+        <div class="projects-featured-banner">
+          <picture>
+            <source srcset="assets/img/projetos-banner.webp" type="image/webp">
+            <img src="assets/img/projetos-banner.jpg" alt="Crianças participando de uma oficina educativa de pintura realizada pela ONG.">
+          </picture>
+          <div class="projects-banner-content">
+            <span class="badge badge-accent" style="margin-bottom: 0.5rem;">Cidadania & Futuro</span>
+            <h2>Iniciativas Solidárias</h2>
+            <p>Atividades educativas, reforço escolar, oficinas de arte e suporte contínuo para garantir um amanhã brilhante para nossas crianças.</p>
+          </div>
+        </div>
+
+        <!-- GRID DE ARTIGOS DOS PROJETOS -->
+        <div class="projects-grid">
+          
+          <!-- PROJETO CRIANÇA FUTURA -->
+          <article class="project-card">
+            <span class="badge badge-primary card-badge">Educação Infantil & Arte</span>
+            <h3>Projeto Criança Futura</h3>
+            <p>
+              Oferecemos reforço escolar, oficinas de arte e atividades esportivas para crianças no turno inverso ao da escola. Proporcionamos um ambiente seguro, estimulante e acolhedor onde as crianças aprendem valores de convivência, desenvolvem criatividade e recebem acompanhamento pedagógico carinhoso.
+            </p>
+            <div style="margin-top: auto; padding-top: 1rem; border-top: 1px solid var(--border-light); display: flex; align-items: center; justify-content: space-between;">
+              <span style="font-size: 0.85rem; font-weight: 600; color: var(--primary);">
+                ✓ Atendimento Semanal Gratuito
+              </span>
+              <a href="cadastro.html" class="btn btn-outline btn-sm">Quero Apoiar</a>
+            </div>
+          </article>
+
+          <!-- CAMPANHA DO AGASALHO E MANTIMENTOS -->
+          <article class="project-card">
+            <span class="badge badge-secondary card-badge">Segurança Alimentar</span>
+            <h3>Campanha do Agasalho e Mantimentos</h3>
+            <p>
+              Arrecadação e distribuição mensal de cestas básicas e agasalhos para famílias cadastradas. Nossa missão garante que nenhuma mesa fique vazia e que o frio seja amenizado com cobertores, agasalhos de qualidade e muito calor humano fornecido por nossos voluntários.
+            </p>
+            <div style="margin-top: auto; padding-top: 1rem; border-top: 1px solid var(--border-light); display: flex; align-items: center; justify-content: space-between;">
+              <span style="font-size: 0.85rem; font-weight: 600; color: var(--secondary);">
+                ✓ +1.500 Cestas Entregues
+              </span>
+              <a href="#doacoes" class="btn btn-outline btn-sm">Contribuir</a>
+            </div>
+          </article>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- SEÇÃO DE CAMPANHAS DE DOAÇÃO & PIX -->
+    <section class="section section-alt" id="doacoes">
+      <div class="container">
+        
+        <div class="section-header">
+          <span class="badge badge-accent">Faça a Diferença</span>
+          <h2 class="section-title">Campanhas de Doação</h2>
+          <p class="section-subtitle">
+            Sua contribuição financeira mantém nossos projetos vivos. Qualquer valor é transformado diretamente em alimentação, materiais escolares e oficinas para a comunidade.
+          </p>
+        </div>
+
+        <div class="donations-wrapper">
+          
+          <!-- CARD PIX INTERATIVO COM BOTÃO DE CÓPIA -->
+          <div class="pix-card">
+            <div class="pix-header">
+              <span class="pix-badge">PIX Oficial</span>
+              <h3 style="color: var(--text-main); font-size: 1.35rem; margin-top: 0.4rem;">Doe com Praticidade</h3>
+              <p style="font-size: 0.9rem; color: var(--text-muted); margin-top: 0.2rem;">Escaneie o QR Code ou copie a chave instantaneamente</p>
+            </div>
+
+            <div class="pix-qr-box" title="QR Code PIX da ONG Esperança Viva">
+              <!-- SVG ilustrativo do QR Code com ícone de coração da ONG -->
+              <svg viewBox="0 0 100 100" width="140" height="140">
+                <rect width="100" height="100" fill="#ffffff" />
+                <!-- Cantos posicionadores -->
+                <rect x="5" y="5" width="26" height="26" fill="#0f172a" rx="4"/>
+                <rect x="9" y="9" width="18" height="18" fill="#ffffff" rx="2"/>
+                <rect x="13" y="13" width="10" height="10" fill="#15803d" rx="1"/>
+
+                <rect x="69" y="5" width="26" height="26" fill="#0f172a" rx="4"/>
+                <rect x="73" y="9" width="18" height="18" fill="#ffffff" rx="2"/>
+                <rect x="77" y="13" width="10" height="10" fill="#15803d" rx="1"/>
+
+                <rect x="5" y="69" width="26" height="26" fill="#0f172a" rx="4"/>
+                <rect x="9" y="73" width="18" height="18" fill="#ffffff" rx="2"/>
+                <rect x="13" y="77" width="10" height="10" fill="#15803d" rx="1"/>
+
+                <!-- Padrões e módulos de dados estilizados -->
+                <rect x="36" y="8" width="6" height="6" fill="#0f172a"/>
+                <rect x="46" y="8" width="6" height="6" fill="#0284c7"/>
+                <rect x="56" y="8" width="6" height="6" fill="#0f172a"/>
+                <rect x="36" y="18" width="6" height="6" fill="#15803d"/>
+                <rect x="46" y="18" width="6" height="6" fill="#0f172a"/>
+                
+                <rect x="8" y="36" width="6" height="6" fill="#0f172a"/>
+                <rect x="18" y="36" width="6" height="6" fill="#0284c7"/>
+                <rect x="8" y="46" width="6" height="6" fill="#15803d"/>
+                <rect x="18" y="46" width="6" height="6" fill="#0f172a"/>
+                <rect x="8" y="56" width="6" height="6" fill="#0f172a"/>
+
+                <!-- Centro com Coração da Esperança -->
+                <rect x="38" y="38" width="24" height="24" fill="#ffffff" rx="4" stroke="#16a34a" stroke-width="2"/>
+                <path d="M50 54l-1.45-1.32C43.4 48 40 45 40 42c0-2.2 1.8-4 4-4 1.2 0 2.4.6 3 1.5.6-.9 1.8-1.5 3-1.5 2.2 0 4 1.8 4 4 0 3-3.4 6-8.55 10.68L50 54z" fill="#16a34a"/>
+
+                <rect x="68" y="36" width="6" height="6" fill="#0f172a"/>
+                <rect x="78" y="36" width="6" height="6" fill="#15803d"/>
+                <rect x="88" y="36" width="6" height="6" fill="#0f172a"/>
+                <rect x="68" y="46" width="6" height="6" fill="#0284c7"/>
+                <rect x="88" y="46" width="6" height="6" fill="#15803d"/>
+
+                <rect x="36" y="72" width="6" height="6" fill="#0284c7"/>
+                <rect x="46" y="72" width="6" height="6" fill="#0f172a"/>
+                <rect x="56" y="72" width="6" height="6" fill="#15803d"/>
+                <rect x="36" y="82" width="6" height="6" fill="#0f172a"/>
+                <rect x="46" y="82" width="6" height="6" fill="#0284c7"/>
+                <rect x="56" y="82" width="6" height="6" fill="#0f172a"/>
+                <rect x="70" y="75" width="8" height="8" fill="#15803d"/>
+                <rect x="82" y="75" width="8" height="8" fill="#0f172a"/>
+              </svg>
+            </div>
+
+            <!-- Chave PIX Formatada -->
+            <div class="pix-key-display" id="pixKey">pix@esperancaviva.org</div>
+
+            <!-- Botão de Cópia com 1 Clique -->
+            <button type="button" id="copyPixBtn" class="btn btn-primary" style="width: 100%; max-width: 320px;">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+                <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+              </svg>
+              Copiar Chave PIX
+            </button>
+          </div>
+
+          <!-- TABELA BANCÁRIA MODERNA -->
+          <div class="bank-table-card">
+            <div>
+              <span class="badge badge-primary" style="margin-bottom: 0.6rem;">Transferência Tradicional</span>
+              <h3>Dados para Transferência e TED/DOC</h3>
+              <p class="desc">Para doações por transferência direta, depósitos ou transferências entre contas bancárias:</p>
+            </div>
+
+            <div class="table-responsive">
+              <table class="styled-table">
+                <caption>Dados para Transferência e PIX</caption>
+                <thead>
+                  <tr>
+                    <th>Banco</th>
+                    <th>Agência</th>
+                    <th>Conta Corrente</th>
+                    <th>Chave PIX</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><strong>Banco do Brasil</strong></td>
+                    <td>1234-5</td>
+                    <td>98765-4</td>
+                    <td style="color: var(--primary); font-weight: 600;">pix@esperancaviva.org</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+
+            <div style="background-color: var(--primary-subtle); padding: 1rem; border-radius: var(--radius-sm); margin-top: 1.5rem; border-left: 3px solid var(--primary); font-size: 0.88rem; color: var(--text-body);">
+              <strong>CNPJ:</strong> 00.000.000/0001-00 • <strong>Razão Social:</strong> Associação ONG Esperança Viva Solidária
+            </div>
+          </div>
+
+        </div>
+
+        <!-- ASIDE: CONVITE AO VOLUNTARIADO -->
+        <aside class="volunteer-cta-aside">
+          <div>
+            <h2>Quer colocar a mão na massa?</h2>
+            <p>Precisamos constantemente de voluntários para nossas oficinas educativas, reforço escolar, triagem de roupas e organização de doações de mantimentos.</p>
+          </div>
+          <a href="cadastro.html" class="btn btn-outline-white btn-lg" style="flex-shrink: 0;">
+            Cadastre-se como voluntário
+          </a>
+        </aside>
+
+      </div>
+    </section>
+  </main>
+
+  <!-- RODAPÉ COMPLETO -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        
+        <div class="footer-brand">
+          <div class="footer-logo-row">
+            <img src="assets/img/logo-ong.svg" alt="Logotipo ONG Esperança Viva">
+            <span>ONG Esperança Viva</span>
+          </div>
+          <p class="footer-desc">
+            Organização sem fins lucrativos dedicada à inclusão social, apoio comunitário contínuo e acolhimento a famílias em situação de vulnerabilidade.
+          </p>
+        </div>
+
+        <div class="footer-column">
+          <h3>Links Rápidos</h3>
+          <ul class="footer-links">
+            <li><a href="index.html">Página Inicial</a></li>
+            <li><a href="projetos.html">Projetos Sociais</a></li>
+            <li><a href="#doacoes">Como Doar (PIX)</a></li>
+            <li><a href="cadastro.html">Seja um Voluntário</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-column footer-contact">
+          <h3>Contato</h3>
+          <address>
+            <div class="footer-contact-item">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                <polyline points="22,6 12,13 2,6"></polyline>
+              </svg>
+              <div>
+                <strong>E-mail:</strong><br>
+                <a href="mailto:contato@esperancaviva.org">contato@esperancaviva.org</a>
+              </div>
+            </div>
+
+            <div class="footer-contact-item">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+              </svg>
+              <div>
+                <strong>Telefone:</strong><br>
+                <a href="tel:+5519999999999">(19) 99999-9999</a>
+              </div>
+            </div>
+
+            <div class="footer-contact-item">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                <circle cx="12" cy="10" r="3"></circle>
+              </svg>
+              <div>
+                <strong>Endereço:</strong><br>
+                Rua da Solidariedade, 123 - Centro
+              </div>
+            </div>
+          </address>
+        </div>
+
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2026 ONG Esperança Viva. Todos os direitos reservados.</p>
+        <p>Juntos construindo um mundo melhor com solidariedade e amor.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts Interativos -->
+  <script src="assets/js/main.js"></script>
+</body>
+</html>

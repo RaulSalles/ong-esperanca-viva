@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Seja um voluntário da ONG Esperança Viva. Preencha o formulário de cadastro e ajude em oficinas educativas, doações e apoio comunitário.">
+  <title>ONG Esperança Viva - Seja um Voluntário</title>
+  
+  <!-- Favicon Oficial -->
+  <link rel="icon" type="image/svg+xml" href="assets/img/logo-ong.svg">
+  
+  <!-- Folha de Estilos Principal -->
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+  <!-- CABEÇALHO PRINCIPAL -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="brand-wrapper" title="Voltar para a página inicial">
+        <img src="assets/img/logo-ong.svg" alt="Logotipo da ONG Esperança Viva" class="brand-logo">
+        <div class="brand-title">
+          <span>ONG Esperança Viva</span>
+          <span class="sub">Juntos Podemos Fazer Mais</span>
+        </div>
+      </a>
+
+      <!-- Botão Hambúrguer Mobile -->
+      <button class="mobile-toggle" id="mobileToggle" aria-label="Abrir menu de navegação" aria-expanded="false">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <line x1="3" y1="12" x2="21" y2="12"></line>
+          <line x1="3" y1="6" x2="21" y2="6"></line>
+          <line x1="3" y1="18" x2="21" y2="18"></line>
+        </svg>
+      </button>
+
+      <!-- Navegação Principal -->
+      <nav class="main-nav" id="mainNav" aria-label="Menu Principal">
+        <ul>
+          <li><a href="index.html">Início</a></li>
+          <li><a href="projetos.html">Projetos</a></li>
+          <li><a href="cadastro.html" class="active">Seja Voluntário</a></li>
+        </ul>
+      </nav>
+
+      <!-- Botão de Ação Rápida -->
+      <div class="header-cta">
+        <a href="projetos.html#doacoes" class="btn btn-accent btn-sm">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/>
+          </svg>
+          Apoiar / Doar
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO DA PÁGINA -->
+    <section class="page-hero">
+      <div class="container">
+        <span class="badge badge-primary">Faça Parte da Mudança</span>
+        <h1>Formulário de Inscrição para Voluntários</h1>
+        <p>Dedique suas habilidades e um pouco do seu tempo para transformar realidades. Preencha seus dados abaixo para entrar em contato com nossa coordenação.</p>
+      </div>
+    </section>
+
+    <!-- FORMULÁRIO DE CADASTRO -->
+    <section class="section" style="padding-top: 1.5rem;">
+      <div class="container">
+        
+        <div class="form-container-card">
+          
+          <form action="#" method="POST" class="volunteer-form">
+            
+            <!-- ETAPA 1: DADOS PESSOAIS -->
+            <fieldset class="form-step">
+              <legend class="form-step-title">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
+                  <circle cx="12" cy="7" r="4"></circle>
+                </svg>
+                Dados Pessoais
+              </legend>
+
+              <div class="form-grid">
+                
+                <div class="form-group form-group-full">
+                  <label for="nome">Nome Completo: <span class="required">*</span></label>
+                  <input type="text" id="nome" name="nome" required placeholder="Digite seu nome completo" class="form-control">
+                </div>
+
+                <div class="form-group">
+                  <label for="email">E-mail: <span class="required">*</span></label>
+                  <input type="email" id="email" name="email" required placeholder="seuemail@dominio.com" class="form-control">
+                </div>
+
+                <div class="form-group">
+                  <label for="nascimento">Data de Nascimento: <span class="required">*</span></label>
+                  <input type="date" id="nascimento" name="nascimento" required class="form-control">
+                </div>
+
+                <div class="form-group">
+                  <label for="cpf">CPF: <span class="required">*</span></label>
+                  <input type="text" id="cpf" name="cpf" required pattern="\d{3}\.\d{3}\.\d{3}-\d{2}" placeholder="000.000.000-00" title="Digite o CPF no formato 000.000.000-00" class="form-control" maxlength="14">
+                  <span class="form-hint">Formato: 000.000.000-00</span>
+                </div>
+
+                <div class="form-group">
+                  <label for="telefone">Telefone / WhatsApp: <span class="required">*</span></label>
+                  <input type="tel" id="telefone" name="telefone" required pattern="\(\d{2}\)\s\d{4,5}-\d{4}" placeholder="(00) 00000-0000" title="Digite o telefone no formato (00) 00000-0000" class="form-control" maxlength="15">
+                  <span class="form-hint">Formato: (00) 00000-0000</span>
+                </div>
+
+              </div>
+            </fieldset>
+
+            <!-- ETAPA 2: ENDEREÇO E LOCALIZAÇÃO -->
+            <fieldset class="form-step">
+              <legend class="form-step-title">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                  <circle cx="12" cy="10" r="3"></circle>
+                </svg>
+                Endereço e Localização
+              </legend>
+
+              <div class="form-grid">
+                
+                <div class="form-group">
+                  <label for="cep">CEP: <span class="required">*</span></label>
+                  <input type="text" id="cep" name="cep" required pattern="\d{5}-\d{3}" placeholder="00000-000" inputmode="numeric" title="Digite o CEP no formato 00000-000" class="form-control" maxlength="9">
+                  <div id="cepLoading" class="cep-loading">
+                    <svg class="animate-spin" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                      <circle cx="12" cy="12" r="10" stroke-opacity="0.25"></circle>
+                      <path d="M12 2a10 10 0 0 1 10 10"></path>
+                    </svg>
+                    Buscando endereço automaticamente...
+                  </div>
+                  <span class="form-hint">Digite os 8 números para preencher a rua e cidade</span>
+                </div>
+
+                <div class="form-group">
+                  <label for="logradouro">Logradouro: <span class="required">*</span></label>
+                  <input type="text" id="logradouro" name="logradouro" required placeholder="Rua, Avenida, etc." class="form-control">
+                </div>
+
+                <div class="form-group">
+                  <label for="numero">Número: <span class="required">*</span></label>
+                  <input type="number" id="numero" name="numero" required placeholder="123" class="form-control">
+                </div>
+
+                <div class="form-group">
+                  <label for="cidade">Cidade: <span class="required">*</span></label>
+                  <input type="text" id="cidade" name="cidade" required placeholder="Sua cidade" class="form-control">
+                </div>
+
+                <div class="form-group form-group-full">
+                  <label for="estado">Estado: <span class="required">*</span></label>
+                  <select id="estado" name="estado" required class="form-control">
+                    <option value="">Selecione o Estado</option>
+                    <option value="SP">São Paulo (SP)</option>
+                    <option value="RJ">Rio de Janeiro (RJ)</option>
+                    <option value="MG">Minas Gerais (MG)</option>
+                    <option value="PR">Paraná (PR)</option>
+                    <option value="BA">Bahia (BA)</option>
+                    <option value="RS">Rio Grande do Sul (RS)</option>
+                    <option value="SC">Santa Catarina (SC)</option>
+                    <option value="PE">Pernambuco (PE)</option>
+                    <option value="CE">Ceará (CE)</option>
+                    <option value="GO">Goiás (GO)</option>
+                    <option value="DF">Distrito Federal (DF)</option>
+                    <option value="ES">Espírito Santo (ES)</option>
+                  </select>
+                </div>
+
+              </div>
+            </fieldset>
+
+            <!-- ETAPA 3: PERFIL DE ATUAÇÃO -->
+            <fieldset class="form-step">
+              <legend class="form-step-title">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+                </svg>
+                Perfil de Atuação
+              </legend>
+
+              <div class="options-group">
+                <p class="options-title">Áreas de Interesse:</p>
+                <div class="checkbox-radio-grid">
+                  <label class="custom-option-label">
+                    <input type="checkbox" name="interesse" value="educacao">
+                    <span>Educação e Reforço</span>
+                  </label>
+                  
+                  <label class="custom-option-label">
+                    <input type="checkbox" name="interesse" value="logistica">
+                    <span>Logística e Doações</span>
+                  </label>
+                  
+                  <label class="custom-option-label">
+                    <input type="checkbox" name="interesse" value="eventos">
+                    <span>Eventos Comunitários</span>
+                  </label>
+                </div>
+              </div>
+
+              <div class="options-group" style="margin-top: 1.5rem;">
+                <p class="options-title">Disponibilidade de Horário: <span class="required">*</span></p>
+                <div class="checkbox-radio-grid">
+                  <label class="custom-option-label">
+                    <input type="radio" name="disponibilidade" value="manha" required>
+                    <span>Manhã</span>
+                  </label>
+                  
+                  <label class="custom-option-label">
+                    <input type="radio" name="disponibilidade" value="tarde">
+                    <span>Tarde</span>
+                  </label>
+                  
+                  <label class="custom-option-label">
+                    <input type="radio" name="disponibilidade" value="final_de_semana">
+                    <span>Finais de Semana</span>
+                  </label>
+                </div>
+              </div>
+
+            </fieldset>
+
+            <!-- SUBMISSÃO -->
+            <div class="form-submit-wrapper">
+              <button type="submit" class="btn btn-primary btn-lg">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <line x1="22" y1="2" x2="11" y2="13"></line>
+                  <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+                </svg>
+                Finalizar Inscrição
+              </button>
+              
+              <p class="terms-note">
+                Ao se inscrever, você concorda em receber comunicações da ONG Esperança Viva para alinhamento das atividades voluntárias.
+              </p>
+            </div>
+
+          </form>
+
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <!-- RODAPÉ COMPLETO -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        
+        <div class="footer-brand">
+          <div class="footer-logo-row">
+            <img src="assets/img/logo-ong.svg" alt="Logotipo ONG Esperança Viva">
+            <span>ONG Esperança Viva</span>
+          </div>
+          <p class="footer-desc">
+            Organização sem fins lucrativos dedicada à inclusão social, apoio comunitário contínuo e acolhimento a famílias em situação de vulnerabilidade.
+          </p>
+        </div>
+
+        <div class="footer-column">
+          <h3>Links Rápidos</h3>
+          <ul class="footer-links">
+            <li><a href="index.html">Página Inicial</a></li>
+            <li><a href="projetos.html">Projetos Sociais</a></li>
+            <li><a href="projetos.html#doacoes">Como Doar (PIX)</a></li>
+            <li><a href="cadastro.html">Seja um Voluntário</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-column footer-contact">
+          <h3>Contato</h3>
+          <address>
+            <div class="footer-contact-item">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                <polyline points="22,6 12,13 2,6"></polyline>
+              </svg>
+              <div>
+                <strong>E-mail:</strong><br>
+                <a href="mailto:contato@esperancaviva.org">contato@esperancaviva.org</a>
+              </div>
+            </div>
+
+            <div class="footer-contact-item">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+              </svg>
+              <div>
+                <strong>Telefone:</strong><br>
+                <a href="tel:+5519999999999">(19) 99999-9999</a>
+              </div>
+            </div>
+
+            <div class="footer-contact-item">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                <circle cx="12" cy="10" r="3"></circle>
+              </svg>
+              <div>
+                <strong>Endereço:</strong><br>
+                Rua da Solidariedade, 123 - Centro
+              </div>
+            </div>
+          </address>
+        </div>
+
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2026 ONG Esperança Viva. Todos os direitos reservados.</p>
+        <p>Juntos construindo um mundo melhor com solidariedade e amor.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts Interativos -->
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
