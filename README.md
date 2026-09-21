@@ -28,7 +28,7 @@
 
 ## 🎓 Sobre o Projeto
 
-Este projeto foi desenvolvido com **fins acadêmicos para a faculdade**, tendo como objetivo aplicar na prática conceitos fundamentais e avançados de desenvolvimento Front-End:
+Este projeto foi desenvolvido com **fins acadêmicos para a faculdade, e não corresponde a uma ONG real**, tendo como objetivo aplicar na prática conceitos fundamentais e avançados de desenvolvimento Front-End:
 
 - **Semântica Web Rigorosa**: Utilização correta das tags estruturais do HTML5 (`<header>`, `<nav>`, `<main>`, `<section>`, `<article>`, `<aside>`, `<footer>`, `<figure>`, `<picture>`, `<fieldset>`).
 - **Design System & CSS Moderno**: Arquitetura com variáveis CSS (*Design Tokens*), Flexbox, CSS Grid e tipografia fluida.
@@ -165,13 +165,9 @@ Depois, basta acessar no navegador: `http://localhost:3000`
 
 ## 👨‍💻 Autor
 
-Desenvolvido por **Raul Abreu** como projeto acadêmico para o curso de graduação / faculdade.
+Desenvolvido por **Raul Salles** como projeto acadêmico para o curso de graduação / faculdade.
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/raul-guilherme-gomes-de-abreu-whitaker-salles)
 [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/RaulSalles)
 
 ---
-
-<div align="center">
-  <sub>ONG Esperança Viva • Juntos por um futuro melhor ❤️</sub>
-</div>
