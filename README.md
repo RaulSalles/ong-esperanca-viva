@@ -5,7 +5,7 @@
   ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
   ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
   ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-  ![Acessibilidade](https://img.shields.io/badge/WCAG%20AA-Acessível-16a34a?style=for-the-badge)
+  ![Acessibilidade](https://img.shields.io/badge/WCAG%20AA-Acess%C3%ADvel-16a34a?style=for-the-badge)
   ![Responsivo](https://img.shields.io/badge/Design-100%25%20Responsivo-0284c7?style=for-the-badge)
 
   <p align="center">
@@ -13,20 +13,21 @@
   </p>
 
   <p align="center">
-    <a href="#-sobre-o-projeto">Sobre</a> •
-    <a href="#-funcionalidades">Funcionalidades</a> •
-    <a href="#-tecnologias-utilizadas">Tecnologias</a> •
-    <a href="#-estrutura-do-projeto">Estrutura</a> •
-    <a href="#-como-rodar-o-projeto">Como Rodar</a> •
-    <a href="#-requisitos">Requisitos</a> •
-    <a href="#-autor">Autor</a>
+    <a href="#sobre">Sobre</a> •
+    <a href="#funcionalidades">Funcionalidades</a> •
+    <a href="#tecnologias">Tecnologias</a> •
+    <a href="#estrutura">Estrutura</a> •
+    <a href="#como-rodar">Como Rodar</a> •
+    <a href="#requisitos">Requisitos</a> •
+    <a href="#criterios">Critérios Acadêmicos</a> •
+    <a href="#autor">Autor</a>
   </p>
 
 </div>
 
 ---
 
-## 🎓 Sobre o Projeto
+<h2 id="sobre">🎓 Sobre o Projeto</h2>
 
 Este projeto foi desenvolvido com **fins acadêmicos para a faculdade, e não corresponde a uma ONG real**, tendo como objetivo aplicar na prática conceitos fundamentais e avançados de desenvolvimento Front-End:
 
@@ -38,7 +39,7 @@ Este projeto foi desenvolvido com **fins acadêmicos para a faculdade, e não co
 
 ---
 
-## ✨ Funcionalidades
+<h2 id="funcionalidades">✨ Funcionalidades</h2>
 
 ### 🏠 Página Inicial (`index.html`)
 - **Hero Section Atraente**: Destaque para a fotografia real das ações com badge de transparência.
@@ -65,9 +66,9 @@ Este projeto foi desenvolvido com **fins acadêmicos para a faculdade, e não co
 
 ---
 
-## 🛠️ Tecnologias Utilizadas
+<h2 id="tecnologias">🛠️ Tecnologias Utilizadas</h2>
 
-O projeto foi construído utilizando tecnologias web puras (*Vanilla Web*), priorizando alto desempenho, leveza e ausência de dependências complexas:
+O projeto foi built utilizando tecnologias web puras (*Vanilla Web*), priorizando alto desempenho, leveza e ausência de dependências complexas:
 
 - **HTML5 Semântico**: Estrutura acessível e otimizada para motores de busca (SEO).
 - **CSS3 Moderno**: 
@@ -86,88 +87,22 @@ O projeto foi construído utilizando tecnologias web puras (*Vanilla Web*), prio
 
 ---
 
-## 📁 Estrutura do Projeto
+<h2 id="estrutura">📁 Estrutura do Projeto</h2>
 
 ```plaintext
 projeto_ong/
-├── index.html               # Página inicial (Quem Somos, Métricas e Missão)
-├── projetos.html            # Página de projetos sociais e doações (PIX/Banco)
-├── cadastro.html            # Formulário de cadastro de voluntários
-├── README.md                # Documentação completa do projeto
+├── index.html                # Página inicial (Quem Somos, Métricas e Missão)
+├── projetos.html             # Página de projetos sociais e doações (PIX/Banco)
+├── cadastro.html             # Formulário de cadastro de voluntários
+├── README.md                 # Documentação completa do projeto
 └── assets/
     ├── css/
-    │   └── style.css        # Folha de estilos completa e responsiva
+    │   └── style.css         # Folha de estilos completa e responsiva
     ├── js/
-    │   └── main.js          # Scripts, máscaras, API ViaCEP e menu mobile
+    │   └── main.js           # Scripts, máscaras, API ViaCEP e menu mobile
     └── img/
         ├── logo-ong.svg          # Logotipo oficial em vetor
         ├── voluntarios.webp      # Fotografia de voluntários (formato otimizado)
         ├── voluntarios.jpg       # Fotografia de voluntários (fallback)
         ├── projetos-banner.webp  # Banner das oficinas infantis (otimizado)
         └── projetos-banner.jpg   # Banner das oficinas infantis (fallback)
-```
-
----
-
-## 🚀 Como Rodar o Projeto
-
-Como o projeto é desenvolvido com tecnologias estáticas puras, não é necessário compilar ou instalar dependências de pacotes (como `npm install`).
-
-### Opção 1: Abrir Diretamente no Navegador (Mais Rápido)
-1. Baixe ou clone este repositório:
-   ```bash
-   git clone https://github.com/RaulSalles/ong-esperanca-viva.git
-   ```
-2. Navegue até a pasta do projeto.
-3. Dê um duplo clique no arquivo **`index.html`** para abrir no seu navegador padrão.
-
----
-
-### Opção 2: Com a extensão Live Server (VS Code) — *Recomendado*
-1. Abra a pasta do projeto no **Visual Studio Code**.
-2. Instale a extensão **Live Server** (caso ainda não tenha).
-3. Clique com o botão direito no arquivo `index.html` e selecione **"Open with Live Server"**.
-4. O projeto será iniciado em `http://127.0.0.1:5500`.
-
----
-
-### Opção 3: Usando um Servidor Local com Python
-Se você possui o Python instalado:
-
-```bash
-# Na raiz da pasta do projeto:
-python -m http.server 3000
-```
-Depois, basta acessar no navegador: `http://localhost:3000`
-
----
-
-## 📋 Requisitos
-
-- **Navegador Web Atualizado**: Google Chrome, Mozilla Firefox, Microsoft Edge, Safari ou Opera.
-- **Conexão com a Internet**: Necessária para carregar a fonte do Google Fonts e para realizar as consultas de CEP na API pública do ViaCEP.
-- **Editor de Código (Opcional)**: VS Code, Sublime Text ou qualquer editor de sua preferência para visualizar ou editar os códigos.
-
----
-
-## 🎯 Critérios Acadêmicos Atendidos
-
-| Critério | Implementação no Projeto |
-| :--- | :--- |
-| **HTML Semântico** | Páginas com tags estruturais adequadas (`header`, `main`, `section`, `article`, `fieldset`, `figure`). |
-| **CSS Organizado** | Folha modular com variáveis, reset moderno e nomenclatura clara. |
-| **Responsividade** | Layout adaptável para telas a partir de 320px até telas widescreen 4K. |
-| **Formulários Web** | Validações com Regex, tipos adequados (`email`, `tel`, `date`), atributos `required` e `pattern`. |
-| **Interatividade JS** | Máscaras de entrada, menu mobile, cópia com 1 clique e consumo de API REST. |
-| **Acessibilidade** | Relação de contraste WCAG AA, tags `alt` descritivas nas imagens e foco por teclado. |
-
----
-
-## 👨‍💻 Autor
-
-Desenvolvido por **Raul Salles** como projeto acadêmico para o curso de graduação / faculdade.
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/raul-guilherme-gomes-de-abreu-whitaker-salles)
-[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/RaulSalles)
-
----
